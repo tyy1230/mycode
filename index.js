@@ -9,7 +9,7 @@ useNewUrlParser:true,useUnifiedTopology:true,useCreateIndex:true,useFindAndModif
 }).then(()=> console.log('connect'))
 .catch(err => console.log(err))
 // 연결이 잘 되었다면(then) 실행
-// 연길이 안되었다면(catch) 실행
+// 연길이 안되었다면(catch) 실행ddddddddddddddd
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
